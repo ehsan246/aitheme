@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica,Arial,sans-serif;
+}
+:root{
+    font-size: 16px;
+}
+/* Set a background color and text color for the entire page */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+/* header {
+
+} */
+
+
+nav{
+    background-color: #131313;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px;
+}
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.fa-solid{
+    display: none;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cta-button {
+    /* background-color: #ff9900; */
+    border: 2px solid;
+    color: #fff;
+    padding: 10px 20px;
+    /* border-radius: 5px; */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e68a00;
+}
+
+/* Hero Banner Styles */
+main{
+    height: 100vh;
+}
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    text-align: center;
+    /* padding: 100px 0; */
+    height: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero div{
+    width: 820px;
+}
+
+.hero h1 {
+    color: #fff;
+    max-width: 730px;
+    font-size: clamp(3.5rem,8vh,120px);
+    font-weight: 700;
+    line-height: 0.9;
+    letter-spacing: -4;
+    margin-bottom: clamp(2rem,8vh,4px);
+}
+
+.hero p {
+    color: #828282;
+    font-weight: 700;
+    font-size: clamp(1rem,3vh,24px);
+    letter-spacing: -1px;
+    line-height: 1.25;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #e68a00;
+}
+
+/* Key Features Section Styles (Add more styles for the features as needed) */
+.key-features {
+    background-color: #1a1a1a;
+    padding: 192px 0;
+
+    
+}
+.title-section{
+    margin: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.title-section h1{
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: clamp(1.75rem,8vh,3rem);
+
+}
+.title-section p{
+    margin: 0 auto 60px;
+    max-width: 820px;
+    color: #828282;
+    font-weight: 700;
+    font-size: clamp(1rem,3vh,32px);
+    letter-spacing: -1px;
+    line-height: 1.15;
+
+}
+
+.card-section{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 24px; */
+    flex-wrap: wrap;
+}
+
+.feature {
+    text-align: center;
+    margin: 15px;
+    width: 305px;
+    background:#2a2a2a;
+}
+.feature-title {
+    padding: 24px;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #fff;
+}
+
+/* AI Software section */
+.ai-software{
+    padding: clamp(4rem,10vw,8rem) 0;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+.ai-title h1{
+    margin-bottom: 1.5rem;
+    font-size: clamp(1.75rem,8vw,3rem);
+    font-weight: 700;
+    text-align: center;
+}
+.ai-body-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.application-title{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-around;
+    padding: 2rem 0;
+    width: 100%;
+}
+.application-title-card{
+    width: 30%;
+    border-top: 2px solid #fff;
+    padding-top: 20px;
+}
+.application-title-card h2{
+    font-weight: 700;
+    font-size: clamp(0.75rem,2vw,1.25rem);
+}
+.ai-body-content{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background-color: red; */
+    width: 100%;
+    
+}
+
+.application-image{
+    width: 50%; 
+}
+.application-image img{
+    margin: 14px auto;
+}
+.application-description{
+    padding-top: 25px;
+    width: 50%;
+}
+.application-description div{
+    width: 60%;
+}
+
+.application-description h1{
+    margin-bottom: 1.5rem;
+    font-size: clamp(1.25rem,8vw,2rem);
+    font-weight: 700;
+}
+.application-description p{
+    max-width: 570px;
+    font-size: clamp(1rem,5vw,1.125rem);
+    font-weight: 400;
+    line-height: 1.45;
+}
+.application-description ul{
+    margin-left: 1.25rem;
+}
+.application-description li{
+        font-size: clamp(1rem,5vw,1.125rem);
+}
+
+.client-logos{
+    padding: 192px 0;
+    background-color: #1a1a1a;
+}
+
+.client-logos > div{
+    padding: 0 24px;
+}
+.client-title{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.client-title h1{
+    font-size: clamp(1.75rem,8vw,3rem);
+    font-weight: 700;
+}
+
+.client-logo-section{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    /* margin: 0 auto; */
+    /* justify-content: space-between; */
+
+}
+.logo-card{
+    background-color: #2a2a2a;
+    width: 137px;
+    height: 137px;
+    margin: 15px ;
+    background-image: url(baker-hughes-logo-stacked-white.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ai-studio{
+    background-color: #2a2a2a;
+    padding: 192px 0;
+    color: #fff;
+}
+.ai-studio-content{
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+.ai-studio-title{
+    text-align: center;
+    padding: 25px;
+}
+.ai-studio-title h1{
+    font-size: clamp(1.75rem,8vw,3rem);
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.ai-studio-title p{
+    max-width: 650px;
+    margin: 0 auto 60px;
+    color: #828282;
+    font-size: clamp(1rem,3vw,1.5rem);
+    font-weight: 700;
+    letter-spacing: -1px;
+
+}
+
+.ai-studio-title a{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    padding: 21px 33px;
+    margin: 0 0 25px;
+    color: #fff;
+    transition: .25s all ease;
+    text-decoration: none;
+    border: 2px solid;
+    border-color: #fff;
+}
+.ai-studio-title a:hover{
+    background-color: #fff;
+    color: #1a1a1a;
+    border: 0;
+}
+.studio-cards{
+    margin-top: 25px;
+    display: flex;
+}
+.studio-card{
+    width: 25%;
+    padding: 22px;
+    margin: 16px 0;
+    border-left: 2px solid grey;
+}
+.studio-card h1{
+    font-size: clamp(20px,2vw,24px);
+    font-weight: 700;
+    margin-bottom: 25px;
+    letter-spacing: -0.5px;
+    margin-bottom: 2rem;
+}
+
+.studio-card p{
+    margin: 0;
+    color: #919191;
+    font-size: clamp(14px,2vw,18px);
+    line-height: 1.35;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 24px 24px;
+    text-align: center;
+}
+.nav-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+footer ul a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Mobile design */
+@media (max-width: 426px) {
+
+    .nav-ul {
+        display: none;
+    }
+    .mobile-nav{
+        display: inline-block;
+    }
+    .ai-body-section{
+        flex-direction: column-reverse;
+    }
+    .application-image{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .application-image img{
+        width: 80%;
+        /* margin: 25px; */
+    }
+    .application-description{
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .application-title{
+        flex-direction: column;
+    }
+    .ai-body-content{
+        flex-direction: column;
+    }
+    .application-title-card{
+        width: 80%;
+        border-top: 0;
+        padding-top: 20px;
+    }
+    .application-title-card h2{
+        font-size: clamp(1.75rem,2vw,1.25rem);
+    }
+    .client-logo-section{
+        justify-content: space-evenly;
+    }
+
+
+    
+
+
+
+
+    .studio-cards{
+        flex-direction: column;
+    }
+    .studio-card{
+        width: 90%;
+    }
+
+
+
+    .nav-icon{
+        flex-direction: column;
+        align-items: start;
+    }
+    footer ul{
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    footer li {
+        display: block;
+        margin-bottom: 16px;
+        
+
+    }
+    footer li a{
+        font-size: 14px;
+    }
+    .social ul{
+        margin-bottom: 0;
+    }
+    .social li{
+        display: inline;
+
+    }
+    .copy li{
+        color: #aaa;
+        font-size: 12px;
+    }
+
+}
