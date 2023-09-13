@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P3 AI</title>
+    <!-- fontawesome -->
+    <!-- <script src="https://kit.fontawesome.com/ffe9f14d05.js" crossorigin="anonymous"></script> -->
+    <!-- Link to your CSS stylesheet -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <?php
+    wp_head();
+    ?>
+</head>
+<body>
+    <!-- https://github.com/ehsan246/p3ai -->
+    <!-- https://ehsan246.github.io/p3ai/ -->
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <!-- <img src="logo.png" alt="Company Logo"> -->
+                <h1>P3AI</h1>
+            </div>
+            <div>
+                <ul class="nav-ul">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Industries</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#" class="cta-button">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars mobile-nav" style="color: #ffffff;"></i>
+            </div>
+        </nav>
+        <!-- <div class="cta">
+            <a href="#" class="cta-button">Get Started</a>
+        </div> -->
+        <!-- Hero Banner Section -->
+    </header>
+    <main>
+        <section class="hero">
+            <div>
+                <h1>This is Enterprise AI.</h1>
+                <p>C3 AI delivers a comprehensive Enterprise AI application development platform and a large and growing family of turnkey enterprise AI applications.</p>
+                <a href="#" class="hero-button">Learn More</a>
+            </div>
+        </section>
+    </main>
+        <!-- AI Applications Section -->
+        <section class="key-features">
+            <div class="title-section">
+                <h1>C3 AI Applications</h1>
+                <p>C3 AI provides over 40 turnkey Enterprise AI applications that meet the business-critical needs of global enterprises in manufacturing, financial services, government, utilities, oil and gas, chemicals, agribusiness, defense and intelligence, and more.</p>
+            </div>
+            <div class="card-section">
+                <!-- Feature 1 -->
+                <div class="feature">
+                    <div>
+                        <img src="https://c3.ai/wp-content/uploads/2022/05/shell_homepage_new.jpg" alt="Feature 1 Icon">
+                    </div>
+                    <div class="feature-title">
+                        <h2>Koch Uses Enterprise AI at Scale</h2>
+                        <p>Description of Feature 1.</p>
+                    </div>
+                </div>
+                <!-- Feature 1 -->
+                <div class="feature">
+                    <div>
+                        <img src="https://c3.ai/wp-content/uploads/2022/05/shell_homepage_new.jpg" alt="Feature 1 Icon">
+                    </div>
+                    <div class="feature-title">
+                        <h2>Koch Uses Enterprise AI at Scale</h2>
+                        <p>Description of Feature 1.</p>
+                    </div>
+                </div>
+                <!-- Feature 1 -->
+                <div class="feature">
+                    <div>
+                        <img src="https://c3.ai/wp-content/uploads/2022/05/shell_homepage_new.jpg" alt="Feature 1 Icon">
+                    </div>
+                    <div class="feature-title">
+                        <h2>Koch Uses Enterprise AI at Scale</h2>
+                        <p>Description of Feature 1.</p>
+                    </div>
+                </div>
+                <!-- Feature 1 -->
+                <div class="feature">
+                    <div>
+                        <img src="https://c3.ai/wp-content/uploads/2022/05/shell_homepage_new.jpg" alt="Feature 1 Icon">
+                    </div>
+                    <div class="feature-title">
+                        <h2>Koch Uses Enterprise AI at Scale</h2>
+                        <p>Description of Feature 1.</p>
+                    </div>
+                </div>
+                <!-- Feature 1 -->
+                <div class="feature">
+                    <div>
+                        <img src="https://c3.ai/wp-content/uploads/2022/05/shell_homepage_new.jpg" alt="Feature 1 Icon">
+                    </div>
+                    <div class="feature-title">
+                        <h2>Koch Uses Enterprise AI at Scale</h2>
+                        <p>Description of Feature 1.</p>
+                    </div>
+                </div>
+                <!-- Feature 1 -->
+                <div class="feature">
+                    <div>
+                        <img src="https://c3.ai/wp-content/uploads/2022/05/shell_homepage_new.jpg" alt="Feature 1 Icon">
+                    </div>
+                    <div class="feature-title">
+                        <h2>Koch Uses Enterprise AI at Scale</h2>
+                        <p>Description of Feature 1.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- AI Software Section -->
+        <section class="ai-software">
+            <div>
+                <div class="ai-title">
+                    <h1>P3 AI Software</h1>
+                </div>
+                <div class="ai-body-section">
+                    <div class="application-title">
+                        <div class="application-title-card">
+                            <h2>AI Applications</h2>
+                        </div>
+                        <div class="application-title-card">
+                            <h2>Development Tools</h2>
+                        </div>
+                        <div class="application-title-card">
+                            <h2>AI Application Platform</h2>
+                        </div>
+                    </div>
+                    <div class="ai-body-content">
+                        <div class="application-image">
+                            <img src="cube.png" alt="">
+                        </div>
+                        <div class="application-description">
+                            <div>
+                                <h1>AI Applications</h1>
+                                <p>Ready-to-use enterprise AI applications for high-value use cases.</p>
+                                <ul>
+                                    <li>AI CRM Suite</li>
+                                    <li>Reliability Suite</li>
+                                    <li>Supply Chain Suite</li>
+                                    <li>Sustainability Suite</li>
+                                    <li>Financial Services Suite</li>
+                                    <li>Oil and Gas Suite</li>
+                                    <li>Public Sector Suite</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Client Logos Section -->
+        <section class="client-logos">
+            <div>
+                <div class="client-title">
+                    <h1>C3 AI Customers</h1>
+                </div>
+                <div class="client-logo-section">
+                    <div class="logo-card"></div>
+                    <div class="logo-card"></div>
+                    <div class="logo-card"></div>
+                    <div class="logo-card"></div>
+                    <div class="logo-card"></div>
+                    <div class="logo-card"></div>
+                    <div class="logo-card"></div>
+                    <div class="logo-card"></div>
+                    <div class="logo-card"></div>
+                    <div class="logo-card"></div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- P3 Ai Studio -->
+        <section class="ai-studio">
+            <div class="ai-studio-content">
+                <div class="ai-studio-title">
+                    <h1>P3 AI Studio</h1>
+                    <p>C3 AI provides an integrated family of development tools to meet the needs of different development communities.</p>
+                    <a href="#" class="ai-studio-button">Learn More</a>
+                </div>
+                <div class="ai-studio-details">
+                    <div class="studio-cards">
+                        <div class="studio-card">
+                            <h1>Data Science</h1>
+                            <p>C3 AI uses industry standard tools, including Jupyter Notebook, R, Python, and Scala.</p>
+                        </div>
+                        <div class="studio-card">
+                            <h1>Data Science</h1>
+                            <p>C3 AI uses industry standard tools, including Jupyter Notebook, R, Python, and Scala.</p>
+                        </div>
+                        <div class="studio-card">
+                            <h1>Data Science</h1>
+                            <p>C3 AI uses industry standard tools, including Jupyter Notebook, R, Python, and Scala.</p>
+                        </div>
+                        <div class="studio-card">
+                            <h1>Data Science</h1>
+                            <p>C3 AI uses industry standard tools, including Jupyter Notebook, R, Python, and Scala.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        
+
+    
+        <!-- Footer Section -->
+        <footer>
+
+            <div class="nav-icon">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Industries</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="social">
+                    <ul>
+                        <li><i class="fa-brands fa-linkedin-in fa-xl" style="color: #ffffff;"></i></li>
+                        <li><i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i></li>
+                        <li><i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copy">
+                <ul class="">
+                    <li class=""> © 2023 ITmedicus, Inc. All Rights Reserved. </li>
+                </ul> 
+            </div>
+
+        </footer>
+    
+</body>
+</html>
